@@ -236,10 +236,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
  top:45%;
 }
 .carousel-caption h1 {
-   font-size: 350%;
+   font-size: 250%;
 }
 .carousel-caption h3 {
-  font-size: 140%;
+  font-size: 100%;
   font-weight: 400%;
   padding-bottom: .2rem; 
   }
@@ -251,6 +251,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 @media (max-width: 576px) {
   
+  .carousel-caption{
+    top:50%;
+  }
+  .carousel-caption h1{
+    font-size:140%;
+  }
+  .carousel-caption h3{
+
+    font-size:90%;
+    font-weight: 500%;
+
+  }
+
+
 }
 
 
