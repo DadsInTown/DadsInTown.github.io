@@ -225,7 +225,7 @@ figure {
   }
 @media (max-width: 768px) {
   .carousel-caption{
- top:55%;
+ top:50%;
 }
 .carousel-caption h1 {
    font-size: 250%;
