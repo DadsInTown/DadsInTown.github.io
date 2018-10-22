@@ -44,7 +44,7 @@ width: auto;
   transform: translateY(-50%);
 }
 .carousel-caption h1{
-  font-size: 400%
+  font-size: 300%
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 ]
@@ -119,8 +119,8 @@ width: auto;
   max-width: 100%;
 }
 .social a{
-  font-size: 4.5em;
-  padding: 3rem;
+  font-size: 4em;
+  padding: 2rem;
 }
 .fa-facebook {
   color :#3b5998;
@@ -225,7 +225,7 @@ figure {
   }
 @media (max-width: 768px) {
   .carousel-caption{
- top:50%;
+ top:47%;
 }
 .carousel-caption h1 {
    font-size: 250%;
