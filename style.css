@@ -202,39 +202,30 @@ figure {
     padding: 1rem;
 }
 
-
-
-
-
-
-/*Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px){ 
-
-
- }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
 */
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
-    padding: 2rem;
+    padding: 2rem; 
   }
+.carousel-caption{
+ top:30%;
+}
+.carousel-caption h1 {
+   font-size: 250%;
+}
+.carousel-caption h3 {
+  font-size: 100%;
+  font-weight: 400%;
+  padding-bottom: .2rem; 
+  }
+
+
   }
 @media (max-width: 768px) {
   .carousel-caption{
- top:45%;
+ top:55%;
 }
 .carousel-caption h1 {
    font-size: 250%;
@@ -274,7 +265,29 @@ Extra (xl) large devices (large desktops, 1200px and up)
     font-size:250%;
   }
 }
+/*
 
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){ 
+
+
+ }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+ 
+ }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+ 
+  }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+ 
+ }
 
 
 
